@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Lazaza</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/Lazaza.jpg" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+      
+<!----- contact-page ----->
+
+<div class="contact">
+    <h2 class="title">Contact Us</h2>
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>Address:
+                    1234 Learning Avenue, Education City, Schoolville, 56789
+                    <br>
+                    Phone:
+                    +1 (234) 567-8901
+                    <br>
+                    Email:
+                    support@schoolprojectstore.com
+                </p>
+                <img src="images/user-1.png">
+                <h3>Technical Support</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>Address:
+                    1234 Learning Avenue, Education City, Schoolville, 56789
+                    <br>
+                    Phone:
+                    +1 (234) 567-8901
+                    <br>
+                    Email:
+                    support@schoolprojectstore.com
+                </p>
+                <img src="images/user-2.png">
+                <h3>Pricing & Biling</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>Address:
+                    1234 Learning Avenue, Education City, Schoolville, 56789
+                    <br>
+                    Phone:
+                    +1 (234) 567-8901
+                    <br>
+                    Email:
+                    support@schoolprojectstore.com
+                </p>
+                <img src="images/user-3.png">
+                <h3>Product Advice</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----- footer ----->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our App</h3>
+                <p>Download App for Andriod and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/Lazaza(1).png">
+                <p>Our Purpose Is To Sustainability Make Pleasure and Benifits of Sports Accessible to the Many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Web Project 2025</p>
+    </div>
+</div>
+<!----- js for toggle menu ----->
+<script>
+    var MenuItems = document.getElementById("MenuItems")
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px"
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px"
+        }
+    }
+</script>
+
+</body>
+</html>
